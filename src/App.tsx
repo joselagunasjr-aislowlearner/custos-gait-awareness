@@ -103,7 +103,7 @@ export default function App() {
   return (
     <>
       <header className="site-header">
-        <a className="brand" href="#top" aria-label="Custos Gait Awareness home">
+        <a className="brand" href="#top">
           <span className="brand-mark" aria-hidden="true"><i /><i /><i /></span>
           <span><strong>Custos</strong><small>Gait Awareness</small></span>
         </a>

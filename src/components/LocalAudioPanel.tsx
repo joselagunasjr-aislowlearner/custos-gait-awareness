@@ -44,6 +44,20 @@ export function LocalAudioPanel() {
     }
   }
 
+  async function handleBundledSample() {
+    setStatus("working");
+    setMessage("Loading the included synthetic footstep sample…");
+    try {
+      const response = await fetch("/sample-footsteps.wav");
+      if (!response.ok) throw new Error("Sample unavailable");
+      const blob = await response.blob();
+      await handleFile(new File([blob], "sample-footsteps.wav", { type: "audio/wav" }));
+    } catch {
+      setStatus("error");
+      setMessage("The included sample could not be loaded.");
+    }
+  }
+
   return (
     <section className="card audio-card" aria-labelledby="audio-title">
       <div>
@@ -55,6 +69,14 @@ export function LocalAudioPanel() {
         </p>
       </div>
       <div className="audio-actions">
+        <button
+          className="primary-button"
+          type="button"
+          disabled={status === "working"}
+          onClick={() => void handleBundledSample()}
+        >
+          Run included sample
+        </button>
         <label className="secondary-button" aria-busy={status === "working"}>
           {status === "working" ? "Analyzing locally…" : "Choose local audio"}
           <input

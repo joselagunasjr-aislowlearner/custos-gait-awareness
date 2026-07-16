@@ -2,6 +2,9 @@ import express from "express";
 import OpenAI from "openai";
 import { zodTextFormat } from "openai/helpers/zod";
 import { z } from "zod";
+import { existsSync } from "node:fs";
+import { dirname, resolve } from "node:path";
+import { fileURLToPath } from "node:url";
 import {
   GptSummarySchema,
   validateSummaryGrounding,
@@ -137,6 +140,18 @@ app.post("/api/interpret", async (request, response) => {
     response.status(502).json({ error: "GPT interpretation failed; offline evidence remains available." });
   }
 });
+
+const distPath = resolve(dirname(fileURLToPath(import.meta.url)), "../dist");
+if (existsSync(distPath)) {
+  app.use(express.static(distPath, { etag: true, maxAge: "1h" }));
+  app.use((request, response, next) => {
+    if (request.method !== "GET" || request.path.startsWith("/api/")) {
+      next();
+      return;
+    }
+    response.sendFile(resolve(distPath, "index.html"));
+  });
+}
 
 const port = Number(process.env.PORT ?? 8787);
 app.listen(port, "127.0.0.1", () => {

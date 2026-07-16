@@ -1,13 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700&display=swap");
-
 :root {
-  font-family: "DM Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: "Avenir Next", Avenir, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   color: #163234;
   background: #f6f4ee;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   --ink: #143638;
-  --muted: #667877;
+  --muted: #506563;
   --teal: #0d5b5e;
   --teal-dark: #0b4043;
   --mint: #dcebe3;
@@ -39,7 +37,7 @@ a { color: inherit; }
   color: white;
   background: var(--teal-dark);
 }
-.skip-link:focus { transform: translateY(0); }
+.skip-link:focus-visible { transform: translateY(0); }
 
 .site-header {
   height: 78px;
@@ -197,7 +195,7 @@ td:first-child span, td:last-child small { margin-top: 2px; color: var(--muted);
 .house b { position: absolute; z-index: 3; width: 5px; height: 5px; left: 39px; bottom: 9px; border-radius: 50%; background: var(--teal-dark); }
 .privacy-rules { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; overflow: hidden; border: 1px solid var(--border); border-radius: 24px; background: var(--border); }
 .privacy-rules > div { min-height: 159px; padding: 24px; background: var(--paper); }
-.privacy-rules span { display: block; margin-bottom: 34px; color: #8ca09d; font-size: 10px; }
+.privacy-rules span { display: block; margin-bottom: 34px; color: #506563; font-size: 10px; }
 .privacy-rules strong { display: block; font-size: 13px; }
 .privacy-rules p { margin: 5px 0 0; color: var(--muted); font-size: 10px; }
 
