@@ -66,16 +66,17 @@ Deadline: **July 21, 2026 at 5:00 PM Pacific / 7:00 PM Central**. The submission
 - [x] Majority of core functionality built in this primary Codex task
 - [x] Run `/feedback` in this task
 - [x] Copy the generated Session ID: `019f6d40-47ac-7a53-8b9c-805465827595`
-- [ ] Paste the Session ID into the Devpost field
+- [x] Paste the Session ID into the Devpost field
 
 ## Devpost form
 
-- [x] Project name and category drafted
-- [x] Full project description drafted
+- [x] Project name, elevator pitch, and **Apps for Your Life** category saved in Devpost
+- [x] Full project description and technology tags saved in Devpost
+- [x] Individual submitter type and United States residence saved in Devpost
 - [ ] Add final repository URL
 - [ ] Add final demo URL if applicable
 - [ ] Add public YouTube URL
-- [ ] Add `/feedback` Session ID
+- [x] Add `/feedback` Session ID
 - [ ] Add project image or screenshot
 - [ ] Preview every field and link while signed out or in a private browser window
 - [ ] Jose explicitly approves final submission
