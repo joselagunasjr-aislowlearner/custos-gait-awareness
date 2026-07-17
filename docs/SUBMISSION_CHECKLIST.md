@@ -28,7 +28,7 @@ Deadline: **July 21, 2026 at 5:00 PM Pacific / 7:00 PM Central**. The submission
 - [x] Jose chooses a public repository
 - [x] Private-repository sharing is not applicable
 - [x] MIT license confirmed, tracked-history credential scan passed, and Jose approved publication
-- [ ] Paste the final repository URL into Devpost: [public GitHub repository](https://github.com/joselagunasjr-aislowlearner/custos-gait-awareness)
+- [x] Paste the final repository URL into Devpost: [public GitHub repository](https://github.com/joselagunasjr-aislowlearner/custos-gait-awareness)
 
 ## Demo access
 
@@ -73,7 +73,7 @@ Deadline: **July 21, 2026 at 5:00 PM Pacific / 7:00 PM Central**. The submission
 - [x] Project name, elevator pitch, and **Apps for Your Life** category saved in Devpost
 - [x] Full project description and technology tags saved in Devpost
 - [x] Individual submitter type and United States residence saved in Devpost
-- [ ] Add final repository URL: [public GitHub repository](https://github.com/joselagunasjr-aislowlearner/custos-gait-awareness)
+- [x] Add final repository URL: [public GitHub repository](https://github.com/joselagunasjr-aislowlearner/custos-gait-awareness)
 - [ ] Add final demo URL if applicable
 - [ ] Add public YouTube URL
 - [x] Add `/feedback` Session ID
