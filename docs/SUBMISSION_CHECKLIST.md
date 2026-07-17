@@ -25,10 +25,10 @@ Deadline: **July 21, 2026 at 5:00 PM Pacific / 7:00 PM Central**. The submission
 - [x] Codex collaboration, Jose decisions, GPT-5.6 role, and submission-period provenance
 - [x] MIT license ready if repository becomes public
 - [x] No secrets, PII, raw recordings, production access, or unsupported field claims
-- [ ] Jose chooses public or private repository
-- [ ] If private, Jose shares repository access with `testing@devpost.com` and `build-week-event@openai.com`
-- [ ] If public, Jose confirms the MIT license and security scan, then approves publication
-- [ ] Paste final repository URL into Devpost
+- [x] Jose chooses a public repository
+- [x] Private-repository sharing is not applicable
+- [x] MIT license confirmed, tracked-history credential scan passed, and Jose approved publication
+- [ ] Paste the final repository URL into Devpost: [public GitHub repository](https://github.com/joselagunasjr-aislowlearner/custos-gait-awareness)
 
 ## Demo access
 
@@ -73,7 +73,7 @@ Deadline: **July 21, 2026 at 5:00 PM Pacific / 7:00 PM Central**. The submission
 - [x] Project name, elevator pitch, and **Apps for Your Life** category saved in Devpost
 - [x] Full project description and technology tags saved in Devpost
 - [x] Individual submitter type and United States residence saved in Devpost
-- [ ] Add final repository URL
+- [ ] Add final repository URL: [public GitHub repository](https://github.com/joselagunasjr-aislowlearner/custos-gait-awareness)
 - [ ] Add final demo URL if applicable
 - [ ] Add public YouTube URL
 - [x] Add `/feedback` Session ID
