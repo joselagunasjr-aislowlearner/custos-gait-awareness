@@ -13,7 +13,8 @@ Deadline: **July 21, 2026 at 5:00 PM Pacific / 7:00 PM Central**. The submission
 - [x] Working local judge path with three instant scenarios
 - [x] Behavior matches README and demo script
 - [x] Dated Git history begins during the submission period
-- [ ] Jose confirms entrant eligibility and Devpost registration
+- [x] Jose confirms entrant eligibility and Devpost registration
+- [x] Devpost submission manager: [OpenAI Build Week submission](https://devpost.com/submit-to/30223-openai-build-week/manage/submissions)
 
 ## Repository
 
