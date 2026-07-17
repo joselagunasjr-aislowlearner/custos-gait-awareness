@@ -79,3 +79,7 @@ No live gait-awareness capability or field result is claimed today.
 ## Built with
 
 Codex, GPT-5.6, OpenAI Responses API, React, TypeScript, Vite, Express, Zod, Vitest, Web Audio API
+
+## Primary Codex Session ID
+
+`019f6d40-47ac-7a53-8b9c-805465827595`
